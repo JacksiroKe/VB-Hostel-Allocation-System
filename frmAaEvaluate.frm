@@ -6,7 +6,7 @@ Begin VB.Form frmAaEvaluate
    ClientTop       =   450
    ClientWidth     =   14775
    BeginProperty Font 
-      Name            =   "News Gothic"
+      Name            =   "Arial"
       Size            =   9.75
       Charset         =   0
       Weight          =   400
@@ -89,7 +89,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label Label4 
          Caption         =   "Staff ID:"
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   14.25
             Charset         =   0
             Weight          =   400
@@ -106,7 +106,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label Label1 
          Caption         =   "Department:"
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   14.25
             Charset         =   0
             Weight          =   400
@@ -123,7 +123,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label lblStaffid 
          Caption         =   "Staffid"
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   14.25
             Charset         =   0
             Weight          =   400
@@ -146,7 +146,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label lblDept 
          Caption         =   "Department"
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   14.25
             Charset         =   0
             Weight          =   400
@@ -163,7 +163,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label lblName 
          Caption         =   "Staff Name"
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   18
             Charset         =   0
             Weight          =   400
@@ -180,7 +180,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label Label2 
          Caption         =   "1. How is this teacher's teaching Method?"
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   14.25
             Charset         =   0
             Weight          =   400
@@ -197,7 +197,7 @@ Begin VB.Form frmAaEvaluate
       Begin VB.Label Label3 
          Caption         =   "2. In your own words give a recomendation about this teacher."
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   14.25
             Charset         =   0
             Weight          =   400
@@ -221,7 +221,7 @@ Begin VB.Form frmAaEvaluate
       Width           =   6375
       Begin VB.ComboBox cmbDept 
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   18
             Charset         =   0
             Weight          =   400
@@ -230,9 +230,7 @@ Begin VB.Form frmAaEvaluate
             Strikethrough   =   0   'False
          EndProperty
          Height          =   480
-         ItemData        =   "frmAaEvaluate.frx":0000
          Left            =   360
-         List            =   "frmAaEvaluate.frx":001C
          TabIndex        =   2
          Text            =   "Choose a Department"
          Top             =   480
@@ -240,7 +238,7 @@ Begin VB.Form frmAaEvaluate
       End
       Begin VB.ListBox lstStaff 
          BeginProperty Font 
-            Name            =   "News Gothic"
+            Name            =   "Arial"
             Size            =   18
             Charset         =   0
             Weight          =   400
@@ -248,7 +246,7 @@ Begin VB.Form frmAaEvaluate
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   4380
+         Height          =   4110
          Left            =   360
          TabIndex        =   1
          Top             =   1320

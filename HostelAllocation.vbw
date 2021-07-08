@@ -1,0 +1,7 @@
+frmAaSplash = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAaAdd = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAaEvaluate = 26, 26, 1158, 660, , 52, 52, 1184, 686, C
+frmAaHome = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAaLogin = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAaManage = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAaNew = 0, 0, 0, 0, C, 0, 0, 0, 0, C
